@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: white;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    /*padding: 10px;*/
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+menu ul{
+    padding-top:20px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+header li label.logo{
+    font-size:27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+header a{
+    color: black;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+header a.active, header a:hover{
+    color: rgb(22, 123, 101);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    text-decoration: none;
+}
+
+.wrapper video{
+    width:100%;
+    height: 50%;
+}
+
+.data-container{
+    padding: 30px 40px;
+    text-decoration: none;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;    
+    text-align: justify;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px;
+}
+
+.footer .footer-content{
+    padding: 10px;
+    display: flex;   
+    padding-left: 75px;
+}
+
+.footer .footer-content .footer-section{
+    padding: 0 100px;
+}
+
+.footer-section h1{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-section p{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-section a{
+    color: white;
+    font-size: 18px;
+}
+
+.footer .footer-content .footer-section .timing{
+    padding: 30px;
+}
+
+.footer .footer-section .social-links a{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.social-links a{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.con-wrapper{
+    width: 450px;
+    margin: 50px auto 50px auto; 
+}
+
+.contact-us{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: black;
+    opacity: 0.7;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact-us h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;  
+    color:white;
+}
+
+.contact-us form{
+    margin: 20px;
+}
+
+.contact-us input{
+    width:300px;
+    border: 1px solid white;
+    height: 25px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.contact-us textarea{
+    width:300px;
+    border: 1px solid white;
+    height: 200px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(20, 110, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    line-height: 10px;
+}
+
+.about-container img{
+    width:100%;
+    height: 450px;
+}
+
+.details h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;  
+    color:black;
+}
+
+.details p{
+    padding: 20px 40px;
+    text-decoration: none;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px; 
+    text-align: justify;
+}
+
+.team h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;  
+    color:black;
+}
+
+table tr td{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.table-team .table-img img{    
+    padding: 20px 40px;
+}
+
+.table-team{
+    padding-bottom: 30px;
+}
+
+.message h2{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;  
+    color:black;
+}
+
+.message audio{
+    padding-bottom: 50px;
+}
+
+.table-site{
+    padding-bottom: 30px;
+}
+
+.table-site .table-siteimg img{
+    padding: 20px 40px;
+}

@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: white;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+header li label.logo{
+    font-size:27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px 10px;
+    line-height: 50px;
+    text-align: left;
+}
+
+header a{
+    color: black;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+header a.active, header a:hover{
+    color: rgb(22, 123, 101);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    text-decoration: none;
+}
+
+.wrapper video{
+    width:100%;
+    height: 50%;
+}
+
+.data-container{
+    padding: 30px 30px;
+    text-decoration: none;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;    
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px;
+}
+
+.footer .footer-content{
+    padding: 10px;
+    display: flex;   
+    padding-left: 75px;
+}
+
+.footer .footer-content .footer-section{
+    padding: 0 100px;
+}
+
+.footer-section h1{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-section p{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-section a{
+    color: white;
+    font-size: 18px;
+}
+
+.footer .footer-content .footer-section .timing{
+    padding: 30px;
+}
+
+.footer .footer-section .social-links a{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.social-links a{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*.wrapper{
+    padding:20px;
+    margin: 5px;
+}
+
+.wrapper .contact{
+    display: flex;
+    padding: 10px;
+}
+
+.contact .write-us{
+    flex: 1;
+    padding-right: 20px;
+}
+*/
+.con-wrapper{
+    width: 500px;
+    margin: 50px auto 50px auto;
+}
+
+.contact-us{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgba(134, 133, 133, 0.5);
+    width: 100%;
+    font-size: 20px;
+    border: 5px solid rgb(22, 123, 101);
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+
+.contact-us h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;  
+}
+
+.contact-us form{
+    margin: 20px;
+}
+
+.contact-us input{
+    width:300px;
+    border: 1px solid white;
+    height: 25px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.contact-us textarea{
+    width:300px;
+    border: 1px solid white;
+    height: 200px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
